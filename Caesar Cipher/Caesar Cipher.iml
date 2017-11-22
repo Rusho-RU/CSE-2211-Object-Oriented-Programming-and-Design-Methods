@@ -7,5 +7,29 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../Course/Courses/CSE-2211 (Object Oriented Programming and Design Methods)/Resources/apache-csv.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../Course/Courses/CSE-2211 (Object Oriented Programming and Design Methods)/Resources/commons-csv-1.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../Course/Courses/CSE-2211 (Object Oriented Programming and Design Methods)/Resources/courserajava.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../Course/Courses/CSE-2211 (Object Oriented Programming and Design Methods)/Resources/apache-csv.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../Course/Courses/CSE-2211 (Object Oriented Programming and Design Methods)/Resources/commons-csv-1.5-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../Course/Courses/CSE-2211 (Object Oriented Programming and Design Methods)/Resources/courserajava.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$APPLICATION_HOME_DIR$/redist/annotations-java8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

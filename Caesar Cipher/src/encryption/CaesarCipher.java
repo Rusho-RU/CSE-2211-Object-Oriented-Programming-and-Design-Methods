@@ -1,9 +1,9 @@
 package encryption;
 
 public class CaesarCipher {
-    char[] lowercase, uppercase;
+    private char[] lowercase, uppercase;
 
-    CaesarCipher(){
+    public CaesarCipher() {
         lowercase = new char[26];
         uppercase = new char[26];
         int i=0;
@@ -63,8 +63,10 @@ public class CaesarCipher {
         String message = "";
 
         for(int i=0; i<odd.length(); i++){
-            message += odd.charAt(i);
-            message += even.charAt(i);
+            if(i<odd.length())
+                message += odd.charAt(i);
+            if(i<even.length())
+                message += even.charAt(i);
         }
 
         return message;
@@ -84,12 +86,12 @@ public class CaesarCipher {
         return encrypted;
     }
 
-    public void testCaesar(){
+    private void testCaesar(){
         String ans;
-        ans = encrypt("First Legion", 17);
+        ans = encrypt("Just a test string with lots of eeeeeeeeeeeeeeeees", 23);
         System.out.println(ans);
 
-        ans = encryptTwoKeys("First Legion", 23, 17);
+        ans = encryptTwoKeys("Just a test string with lots of eeeeeeeeeeeeeeeees", 23, 2);
         System.out.println(ans);
     }
 
