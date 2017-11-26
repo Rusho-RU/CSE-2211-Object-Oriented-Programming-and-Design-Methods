@@ -8,13 +8,13 @@ import java.util.*;
 public class GladLib {
     private HashMap<String, ArrayList<String> >myMap;
     private Random myRandom;
-    private static String dataSourceURL = "http://dukelearntoprogram.com/course3/data";
-    private static String getDataSourceDirectory = "C:\\Users\\pc\\Desktop\\GladLibs";
+    private static String dataSourceURL = "https://github.com/Rusho-RU/CSE-2211-Object-Oriented-Programming-and-Design-Methods/tree/master/Improving%20GladLibs/Resource/GladLibs";
+    private static String getDataSourceDirectory = "C:\\Users\\pc\\Downloads\\GladLibs";
 
     public GladLib(){
         myMap = new HashMap<>();
         myRandom = new Random();
-        initializeFromSource(getDataSourceDirectory);
+        initializeFromSource(dataSourceURL);
     }
 
     public GladLib(String source){
@@ -57,7 +57,7 @@ public class GladLib {
         if(label.equals("number"))
             return Integer.toString(myRandom.nextInt(100));
         if(!myMap.containsKey(label))
-            return "**Unknnown**";
+            return "**Unknown**";
         return randomFrom(myMap.get(label));
     }
 
@@ -77,7 +77,7 @@ public class GladLib {
         if(source.startsWith("http")){
             URLResource urlResource = new URLResource(source);
             for(String word : urlResource.words())
-                story += processWord(word) + " ";
+                System.out.println(word);
         }
 
         else{
@@ -101,7 +101,7 @@ public class GladLib {
     }
 
     public void makeStory(){
-        String story = fromTemplate(getDataSourceDirectory + "/madtemplate.txt");
+        String story = fromTemplate(dataSourceURL + "/madtemplate.txt");
         printOut(story, 70);
     }
 
