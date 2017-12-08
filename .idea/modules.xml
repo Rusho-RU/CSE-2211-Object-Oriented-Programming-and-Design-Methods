@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Analyzing Baby name/Analyzing Baby name.iml" filepath="$PROJECT_DIR$/Analyzing Baby name/Analyzing Baby name.iml" />
       <module fileurl="file://$PROJECT_DIR$/Batch Grayscale/Batch Grayscale.iml" filepath="$PROJECT_DIR$/Batch Grayscale/Batch Grayscale.iml" />
       <module fileurl="file://$PROJECT_DIR$/CSE-2211-Object-Oriented-Programming-and-Design-Methods.iml" filepath="$PROJECT_DIR$/CSE-2211-Object-Oriented-Programming-and-Design-Methods.iml" />
       <module fileurl="file://$PROJECT_DIR$/Caesar Cipher/Caesar Cipher.iml" filepath="$PROJECT_DIR$/Caesar Cipher/Caesar Cipher.iml" />
       <module fileurl="file://$PROJECT_DIR$/Improving GladLibs/Improving GladLibs.iml" filepath="$PROJECT_DIR$/Improving GladLibs/Improving GladLibs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Parsing Export Data/Parsing Export Data.iml" filepath="$PROJECT_DIR$/Parsing Export Data/Parsing Export Data.iml" />
       <module fileurl="file://$PROJECT_DIR$/Reading Log Files/Reading Log Files.iml" filepath="$PROJECT_DIR$/Reading Log Files/Reading Log Files.iml" />
+      <module fileurl="file://$PROJECT_DIR$/String First Assignment/String First Assignment.iml" filepath="$PROJECT_DIR$/String First Assignment/String First Assignment.iml" />
       <module fileurl="file://$PROJECT_DIR$/Telling a random story/Telling a random story.iml" filepath="$PROJECT_DIR$/Telling a random story/Telling a random story.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vigenere Cipher/Vigenere Cipher.iml" filepath="$PROJECT_DIR$/Vigenere Cipher/Vigenere Cipher.iml" />
     </modules>
   </component>
 </project>

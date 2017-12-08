@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/workspace.xml
+Known Language and Key Length/src/
+Reading Log Files/Task 1.pdf
+Reading Log Files/Task 2.pdf
+Reading Log Files/Task 3.pdf
+out/
+!/Analyzing Baby name/Analyzing Baby name.iml

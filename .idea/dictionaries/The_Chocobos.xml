@@ -2,6 +2,7 @@
   <dictionary name="The Chocobos">
     <words>
       <w>codon</w>
+      <w>vigenere</w>
     </words>
   </dictionary>
 </component>

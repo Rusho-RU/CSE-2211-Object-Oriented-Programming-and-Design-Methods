@@ -1,6 +1,7 @@
 package FrequentWord;
 
-import edu.duke.*;
+
+import edu.duke.FileResource;
 import java.util.ArrayList;
 
 public class WordFrequencies {

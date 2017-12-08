@@ -1,6 +1,6 @@
 package gladlibs;
 
-import edu.duke.FileResource;
+import edu.duke.*;
 import java.util.HashMap;
 import java.lang.String;
 

@@ -1,8 +1,6 @@
 package batchGrayscale;
 
 import edu.duke.*;
-
-import java.awt.*;
 import java.io.File;
 
 public class ColorToNegative {
